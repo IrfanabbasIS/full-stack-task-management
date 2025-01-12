@@ -19,6 +19,7 @@
     "passport": "^0.7.0",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^8.0.0",
+    "react-router-dom": "^7.1.1",
     "router-dom": "^3.0.1"
   }
 }
