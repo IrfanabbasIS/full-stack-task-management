@@ -8,7 +8,7 @@ export default function Home() {
     const [foodItem, setFoodItem] = useState([]);
 
     const loadData = async () => {
-        let response = await fetch("https://full-stack-task-management-2.onrender.com", {
+        let response = await fetch("https://full-stack-task-management-backend.onrender.com/", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
