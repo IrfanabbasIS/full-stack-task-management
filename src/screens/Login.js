@@ -10,7 +10,7 @@ const navigate = useNavigate();
 
 const handleSubmit=async(e)=>{
     e.preventDefault();
-    const response= await fetch("https://full-stack-task-management-2.onrender.com", {
+    const response= await fetch("https://full-stack-task-management-backend.onrender.com/", {
         method:"POST",
         headers:{
             "Content-Type":"application/json"
